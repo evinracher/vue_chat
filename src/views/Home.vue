@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="text-center">Welcome {{ user.name }}</h1>
+    <h1 class="text-center" v-if="user">Welcome {{ user.name }}</h1>
   </div>
 </template>
 

@@ -70,11 +70,8 @@ export default {
           uid: res.user.uid,
           photo: res.user.photoURL,
         };
-
-        await db.collection("users").doc(user.uid).set(user);
-        console.log("User on db");
         this.setUser(user);
-        // router.push({ name: "Home" });
+        router.push({ name: "Home" });
       } catch (error) {
         console.error(error);
       }
