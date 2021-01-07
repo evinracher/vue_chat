@@ -65,7 +65,6 @@ export default {
         const reader = new FileReader();
         reader.readAsDataURL(this.file);
         reader.onload = (e) => {
-          // console.log(e.target.result);
           this.tempUrl = e.target.result;
           this.message = null;
         };
@@ -82,9 +81,7 @@ export default {
         // this.setLoading("Loading image...", true);
         this.loading = true;
         const res = await refImage.put(this.file);
-        console.log(res);
         const newUrl = await refImage.getDownloadURL();
-        console.log(newUrl);
         this.user.photo = newUrl;
         await db.collection("users").doc(this.user.uid).update({
           photo: newUrl,

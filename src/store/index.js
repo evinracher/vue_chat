@@ -22,7 +22,6 @@ export default new Vuex.Store({
           commit('setUser', doc.data())
         } else {
           await db.collection("users").doc(user.uid).set(user);
-          console.log("User on db");
           commit('setUser', user)
         }
       } catch (error) {
