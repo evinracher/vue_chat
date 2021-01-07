@@ -4,7 +4,7 @@ Using vuex, firebase and more...
 
 Running on: https://faceauth-d5ffb.firebaseapp.com/
 
-Screenshot:
+Screenshots:
 ![chat view ss](https://raw.githubusercontent.com/evinracher/vue_chat/main/details/2021_vue_chat.png)
 ![admin view ss](https://raw.githubusercontent.com/evinracher/vue_chat/main/details/2021_vue_admin.png)
 
