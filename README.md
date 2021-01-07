@@ -1,5 +1,12 @@
 # vue_firebase_auth_gmail_facebook
 
+Using vuex, firebase and more...
+
+Running on: https://faceauth-d5ffb.firebaseapp.com/
+
+Screenshot:
+![project image](https://raw.githubusercontent.com/evinracher/vue_chat/main/details/2021_vue_chat.png)
+
 ## Project setup
 ```
 npm install
