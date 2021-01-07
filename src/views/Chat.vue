@@ -14,7 +14,7 @@
                 <img :src="item.userPhoto" :alt="item.userName" /> </v-avatar
               >{{ item.message }}
             </v-chip>
-            <p class="caption mr-2">{{ item.date }}</p>
+            <p class="caption mx-2">{{ item.date }}</p>
           </div>
         </v-card-text>
         <v-card-text>
