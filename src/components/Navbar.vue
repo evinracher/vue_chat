@@ -63,7 +63,6 @@ export default {
       group: null,
       items: [
         { title: "Home", icon: "fas fa-home", to: { name: "Home" } },
-        { title: "Account", icon: "fas fa-user", to: { name: "Login" } },
         { title: "Admin", icon: "fas fa-user-cog", to: { name: "Admin" } },
         { title: "Chat", icon: "fas fa-comments", to: { name: "Chat" } },
       ],
